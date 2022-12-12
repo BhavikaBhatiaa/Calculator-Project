@@ -1,0 +1,63 @@
+body{
+    background-color: #FAEBD7;
+}
+h2{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 0.3rem;
+    line-height: 1rem;
+    margin-top: 5rem;
+    color: #C48189;
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px #E8ADAA;
+}
+#demo{
+    background-color:#E8ADAA;
+    padding: 6rem 3rem;
+    margin: 8rem auto;
+    border:4px dashed #C48189;
+    font-size: 3rem;
+    text-align: center;
+}
+#stopWatch{
+    background-color: #FAEBD7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px 5px #FBCFCD;
+}
+#time{
+    color:#C32148;
+}
+.btns{
+    margin-top: 3rem;
+}
+button{
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #C32148;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-2.5%);
+  box-shadow: 0 0 15px 0;
+}
+#start:hover{
+    background-color: #f1e7fd;
+}
+#stop:hover{
+    background-color: #d3f5ef;
+}
+#reset:hover{
+    background-color: #fae8e8;
+}

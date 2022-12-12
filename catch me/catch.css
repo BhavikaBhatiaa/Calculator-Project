@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 211, 244);
+}
+
+#target-div{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius:50%;
+    background-color: palevioletred;
+    border: 2px solid black;
+}
+#target-div:hover{
+    background-color: white;
+}
+p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    text-align: center;
+    color:palevioletred;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}

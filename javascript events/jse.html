@@ -1,0 +1,39 @@
+<html>
+    <title>events</title>
+    <link rel="stylesheet" type="text/css" href="jse.css">
+    <body>
+        <h2>SOME BASIC EVENTS</h2>
+        <button id="btn">click me</button>
+        <!--1st event-->
+        <p id="eg"></p>
+
+        <!--2nd event-->
+        <h3 onclick="changeText(this)">Click on this text!</h3><br>
+
+        <!--3rd event-->
+        Enter your name: <input type="text" id="fname" onchange="upperCase()"><br>
+        <h1> </h1>
+
+        <!--4th event-->
+        <div id="style" onmouseover="mover(this)" onmouseout="mout(this)">Mouse over me</div>
+
+        <!--5th  event-->
+       <div id="box"></div>
+       <h4> Box Clicked <span id="click-count"> 0 </span> times </h1>
+        
+        <!--6th event-->
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round" onclick="myFunction()"></span>
+          </label>
+        
+          <!--7th event-->
+          <div id="block">
+            <div id="square"></div>
+        </div>
+            <button id="color">Change Color </button>
+            <button id="shape">Change Shape</button>
+        <script src="jse.js">
+        </script>
+    </body>
+</html>

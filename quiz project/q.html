@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="q.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+          <h2 onmouseover="mover(this)" onmouseout="mout(this)">Quiz</h2>
+        </div>
+        <hr>
+        <div class="card-body">
+          <h2 id="question" class="card-title">
+            Question
+        </h2>
+        <ul>
+            <li>
+              <input type="radio" id="a" name="answer" class="answer" />
+              <label for="a" id="aText">Question</label>
+            </li>
+            <li>
+              <input type="radio" id="b" name="answer" class="answer" />
+              <label for="b" id="bText">Question</label>
+            </li>
+            <li>
+              <input type="radio" id="c" name="answer" class="answer" />
+              <label for="c" id="cText">Question</label>
+            </li>
+            <li>
+              <input type="radio" id="d" name="answer" class="answer" />
+              <label for="d" id="dText">Question</label>
+            </li>
+          </ul>
+        </div>
+        <div class="card-footer">
+          <button id="submit" class="btn">Submit</button>
+        </div>
+      </div>
+      <script src="q.js"></script>
+</body>
+</html>

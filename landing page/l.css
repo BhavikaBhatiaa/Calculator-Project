@@ -1,0 +1,143 @@
+body{
+    background-color: #036635;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+#container{
+    background-color: white;
+    height:80vh;
+    width:90vw;
+}
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-a{
+    padding:20px;
+    position: absolute;
+    padding-top:10px;
+}
+.head-a img{
+    margin-bottom: 40px;
+}
+.head-b{
+    padding-left:800px;
+}
+header ul{
+    display:flex;
+    position:relative;
+    margin-bottom: 40px;
+    padding-left: 40px;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color:#333;
+    margin-left: 40px;
+    font-weight:400;
+    transition: width .5s ease, border-bottom .5s ease;
+    text-decoration:none;
+}
+.head-b #a a:hover{
+    color: #036635;
+    border-bottom: 2px groove black;
+    }
+    .head-b #b a:hover{
+    color: #036635;
+    border-bottom: 2px groove black;
+    }
+    .head-b #c a:hover{
+    color: #036635;
+    border-bottom: 2px groove black;
+    }
+    .head-b #d a:hover{
+    color: #036635;
+    border-bottom: 2px groove black;
+    }
+    .content{
+        padding:60px;
+    }
+    .text h2{
+        font-family:'Viga', serif;
+        margin-bottom: 10px;
+    }
+    .text h2 span{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:#036635;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    p{
+        padding-bottom: 20px;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(72, 39, 9);
+    }
+    button{
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        padding: 0.5rem 2rem;
+        font-size: 0.8rem;
+        cursor: pointer;
+        color: #036635;
+        margin-right: 0.8rem;
+        cursor: pointer;
+        transition: all .3s ease;
+    }
+    #btn{
+        background-color: #036635;
+    }
+    button a{
+        text-decoration: none;
+        color: white;
+
+    }
+    button:hover {
+      opacity: 0.9;
+      transform: translateY(-2.5%);
+      box-shadow: 0 0 10px 0 #036635;
+    }
+    .imgbox{
+        width:100%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .starbucks{
+    margin-bottom: 100px;
+    margin-left: 70px;
+    padding-left: 40px;
+    position:relative;
+    left:727px;
+    bottom:308px;
+    }
+    .contact-links{
+        line-height: 3rem;
+        position: relative;
+        bottom:600px;
+        right:68px;
+    }
+    .contact-links ul li{
+        color:black;
+        font-size: 20px;
+        transition: all .3s ease;
+    }
+    .contact-links ul li a:hover{
+        color:#036635;
+        opacity: 0.9;
+        transform: translateY(-2.5%);
+    }
+    .circle{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:#036635;
+        clip-path: circle(600px at right 800px);
+    }
